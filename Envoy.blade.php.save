@@ -1,0 +1,8 @@
+@servers([$server => $server])
+
+@task('deploy')
+    cat > ~/.ssh/id_rsa
+
+    
+    git pull origin master
+@endtask
