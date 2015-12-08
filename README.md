@@ -22,3 +22,5 @@ The below commands are assuming you have a connection alias named 'beasley', so 
 `envoy run scrape --server=beasley --job=2` <br />
 *Read prompt and edit required files* <br />
 **What is happening?** Connect to server alias beasley and run the @task('scrape')
+
+If everything has run successfully and to completion, you should now have three tmux sessions running on your remote server (*clone*, *scrape*, and *import*), running their appropriate logic. Unfortunately everyone...the actual scraper is private, so feel free to create your own.
