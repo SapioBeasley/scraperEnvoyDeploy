@@ -11,14 +11,14 @@ Laravel Envoy deploy script for scraper. Script utilizes envoys slack directive 
 **Rinse and repeat for each remote server you are deploying** <br />
 The below commands are assuming you have a connection alias named 'beasley', so feel free to edit as it applies to your ~/.ssh/config
 
-`envoy run config --server=beasley --job=2`
-*Read prompt and edit required files*
+`envoy run config --server=beasley --job=2` <br />
+*Read prompt and edit required files* <br />
 **What is happening?** Connect to server alias beasley and run the @task('config')
 
-`envoy run clone --server=beasley --job=2`
-*Read prompt and edit required files*
+`envoy run clone --server=beasley --job=2` <br />
+*Read prompt and edit required files* <br />
 **What is happening?** Connect to server alias beasley and run the @task('clone')
 
-`envoy run scrape --server=beasley --job=2`
-*Read prompt and edit required files*
+`envoy run scrape --server=beasley --job=2` <br />
+*Read prompt and edit required files* <br />
 **What is happening?** Connect to server alias beasley and run the @task('scrape')
